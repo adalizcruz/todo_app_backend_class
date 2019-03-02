@@ -1,3 +1,4 @@
+<h3>Todo #<%= params[:id] %> </h3>
 <div class="card">
   <h1>
       Workshop Todo List
@@ -12,7 +13,7 @@
       <div class="card">
       <input type="checkbox" name="">
       <h2>Make the curriculum</h2>
-      <span class= "pomodoro-estimate large-pomodoro-estimate"> <%= 3+1 %>pomodoros</span>
+      <span class= "pomodoro-estimate large-pomodoro-estimate"> <%=params[:id]%>pomodoros</span>
       <a href="#" id="edit-todo-button">Edit</a>
       <a href="#" id="delete-todo-button">Delete</a>
       <a href="index.html" class="simple-link">Go back...</a>
